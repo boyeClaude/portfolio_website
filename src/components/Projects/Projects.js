@@ -18,14 +18,14 @@ import {
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { projects } from "../../constants/constants";
+import { projects, myProjects } from "../../constants/constants";
 
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {projects.map(
+      {myProjects.map(
         ({ id, image, title, description, source, tags, visit }) => (
           <BlogCard key={id}>
             <Img src={image} />
@@ -34,8 +34,10 @@ const Projects = () => (
               <Hr />
             </TitleContent>
             <CardInfo>{description}</CardInfo>
+            <br />
             <div>
               <TitleContent>Stack</TitleContent>
+
               <TagList>
                 {tags.map((tag, i) => (
                   <Tag key={i}>{tag}</Tag>
@@ -43,8 +45,8 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Source</ExternalLinks>
+              <ExternalLinks href={source}>Code</ExternalLinks>
+              <ExternalLinks href={visit}>Source</ExternalLinks>
             </UtilityList>
           </BlogCard>
         )

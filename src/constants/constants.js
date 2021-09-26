@@ -41,23 +41,47 @@ export const projects = [
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
-
 export const myProjects = [
   {
-    title: "MERN Memories",
+    title: "Huddle landing page",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "In this project I have got how to  work with a two column layout.",
+    image: "/images/huddle.png",
+    tags: ["HTML", "CSS", "Responsive Design"],
+    source:
+      "https://github.com/boyeClaude/huddle-landing-page-with-single-introductory-section.git",
+    visit: "https://the-huddle-landing-page.netlify.app/",
     id: 0,
+  },
+  {
+    title: "column preview card component",
+    description:
+      "I got a rid on how to use CSS Grid to build responsive Layout .",
+    image: "/images/card-component.png",
+    tags: ["HTML", "CSS", "Responsive Design", "SCSS"],
+    source: "",
+    visit: "https://the-three-column-preview-card.netlify.app/",
+    id: 1,
+  },
+
+  {
+    title: "CRL Landing Page",
+    description: "Built a landing page for a non existing compagny called CRL",
+    image: "/images/crlpage.png",
+    tags: ["HTML", "CSS", "Responsive Design", "SCSS"],
+    source: "https://github.com/boyeClaude/crl-landing-page",
+    visit: "https://crl-webpage.netlify.app/",
+    id: 2,
+  },
+
+  {
+    title: "Groway Landing Page",
+    description:
+      "This is a code repository for the corresponding the Groway landing page",
+    image: "/images/Groway.png",
+    tags: ["HTML", "CSS", "Responsive Design", "SCSS"],
+    source: "https://github.com/boyeClaude/groway-website.git",
+    visit: "https://groway-analytics.netlify.app/",
+    id: 3,
   },
 ];
