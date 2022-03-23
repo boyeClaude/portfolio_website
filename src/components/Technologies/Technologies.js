@@ -1,18 +1,7 @@
 import React from "react";
 import { DiAngularSimple, DiFirebase, DiReact, DiZend } from "react-icons/di";
-import {
-  Section,
-  SectionDivider,
-  SectionText,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
-import {
-  List,
-  ListContainer,
-  ListItem,
-  ListParagraph,
-  ListTitle,
-} from "./TechnologiesStyles";
+import { Section, SectionDivider, SectionText, SectionTitle } from "../../styles/GlobalComponents";
+import { List, ListContainer, ListItem, ListParagraph, ListTitle } from "./TechnologiesStyles";
 
 const Technologies = () => (
   <Section id="tech">
@@ -35,7 +24,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Reactjs and Angular
+            Angular
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -45,7 +34,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
+            Currently learning <br />
             Nodejs and DataBases
           </ListParagraph>
         </ListContainer>
