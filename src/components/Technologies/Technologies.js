@@ -24,7 +24,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Angular
+            Angular and Reactjs
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -40,7 +40,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
 
-      <ListItem>
+      {/* <ListItem>
         <DiZend size="3rem" />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
@@ -49,7 +49,7 @@ const Technologies = () => (
             tools like Figma
           </ListParagraph>
         </ListContainer>
-      </ListItem>
+      </ListItem> */}
     </List>
   </Section>
 );
