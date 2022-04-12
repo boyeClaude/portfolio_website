@@ -31,8 +31,7 @@ export const projects = [
   },
   {
     title: "Unichat",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
     image: "/images/4.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
     source: "https://google.com",
@@ -43,44 +42,40 @@ export const projects = [
 
 export const myProjects = [
   {
-    title: "Huddle landing page",
-    description:
-      "In this project I have got how to  work with a two column layout.",
-    image: "/images/huddle.png",
-    tags: ["HTML", "CSS", "Responsive Design"],
-    source:
-      "https://github.com/boyeClaude/huddle-landing-page-with-single-introductory-section.git",
-    visit: "https://the-huddle-landing-page.netlify.app/",
+    title: "Portfolio website",
+    description: "Being confortable with reactjs, in this project I have learn core concepts of Nextjs and CSS librairies.",
+    image: "/images/portfolio.png",
+    tags: [" Nextjs", "Responsive Design", "Styled components"],
+    source: "",
+    visit: "https://fredericboye.netlify.app",
     id: 0,
   },
   {
-    title: "column preview card component",
-    description:
-      "I got a rid on how to use CSS Grid to build responsive Layout .",
-    image: "/images/card-component.png",
-    tags: ["HTML", "CSS", "Responsive Design", "SCSS"],
-    source: "",
-    visit: "https://the-three-column-preview-card.netlify.app/",
+    title: "Angular event website ",
+    description: "I learned core concepts of angular such as components, pipes, directives, events binding and more  by bulding a website.",
+    image: "/images/angular-event.png",
+    tags: ["Angular", "Bootstrap", "Responsive Design"],
+    source: "https://github.com/boyeClaude/ng-fundamentals",
+    visit: "https://ng-fundamentals.vercel.app/events",
     id: 1,
   },
 
-  {
-    title: "CRL Landing Page",
-    description: "Built a landing page for a non existing compagny called CRL",
-    image: "/images/crlpage.png",
-    tags: ["HTML", "CSS", "Responsive Design", "SCSS"],
-    source: "https://github.com/boyeClaude/crl-landing-page",
-    visit: "https://crl-webpage.netlify.app/",
-    id: 2,
-  },
+  // {
+  //   title: "CRL Landing Page",
+  //   description: "Built a landing page for a non existing compagny called CRL",
+  //   image: "/images/crlpage.png",
+  //   tags: ["HTML", "CSS", "Responsive Design", "SCSS"],
+  //   source: "https://github.com/boyeClaude/crl-landing-page",
+  //   visit: "https://crl-webpage.netlify.app/",
+  //   id: 2,
+  // },
 
   {
     title: "Groway Landing Page",
-    description:
-      "This is a code repository for the corresponding the Groway landing page",
+    description: "This is a code repository for the corresponding the Groway landing page",
     image: "/images/Groway.png",
     tags: ["HTML", "CSS", "Responsive Design", "SCSS"],
-    source: "https://github.com/boyeClaude/groway-website.git",
+    source: "https://github.com/boyeClaude/corewebsites/tree/main/groway-website",
     visit: "https://groway-analytics.netlify.app/",
     id: 3,
   },

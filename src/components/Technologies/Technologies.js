@@ -34,7 +34,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Currently learning Nextjs, <br />
+            Currently learning <br />
             Nodejs and DataBases
           </ListParagraph>
         </ListContainer>

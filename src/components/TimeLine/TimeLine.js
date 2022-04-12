@@ -1,6 +1,16 @@
 import React, { useState, useRef, useEffect } from "react";
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from "./TimeLineStyles";
+import {
+  CarouselButton,
+  CarouselButtonDot,
+  CarouselButtons,
+  CarouselContainer,
+  CarouselItem,
+  CarouselItemImg,
+  CarouselItemText,
+  CarouselItemTitle,
+  CarouselMobileScrollNode,
+} from "./TimeLineStyles";
 import { Section, SectionDivider, SectionText, SectionTitle } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
 
@@ -45,7 +55,11 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About me</SectionTitle>
-      <SectionText> I've worked with a range of technologies in the web development . I am now focusing to sharp my skills by deeply learning Angular 2+ . I am currently learning Nodejs and Figma</SectionText>
+      <SectionText>
+        {" "}
+        I've worked with a range of technologies in the web development . I am now focusing to sharp my skills by deeply learning Angular 2+ . I am
+        currently learning Nodejs
+      </SectionText>
     </Section>
   );
 };
