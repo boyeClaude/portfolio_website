@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from 'react';
 
 import {
   CarouselButton,
@@ -10,9 +10,9 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
-} from "./TimeLineStyles";
-import { Section, SectionDivider, SectionText, SectionTitle } from "../../styles/GlobalComponents";
-import { TimeLineData } from "../../constants/constants";
+} from './TimeLineStyles';
+import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { TimeLineData } from '../../constants/constants';
 
 // const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -56,9 +56,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About me</SectionTitle>
       <SectionText>
-        {" "}
-        I've worked with a range of technologies in the web development . I am now focusing to sharp my skills by deeply learning Angular 2+ . I am
-        currently learning Nodejs
+        {' '}
+        I've worked with a range of technologies in web development. I am now focusing on sharpening my skills by deeply learning Angular, Reactjs/Nextjs and
+        Nodejs.
       </SectionText>
     </Section>
   );
