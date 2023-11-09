@@ -37,3 +37,5 @@ export const myProjects = [
     id: 4,
   },
 ];
+
+export const projects = []
